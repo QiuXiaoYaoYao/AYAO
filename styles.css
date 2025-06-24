@@ -75,7 +75,7 @@ a:active {
     text-align: center;
     background-color: rgb(255, 169, 206);
     border-radius: 8px;
-    border-color: transparent;
+    border: 2px dashed rgb(252, 111, 172);
     text-decoration: none;
     padding: 5px 10px;
     display: inline-block;
@@ -84,4 +84,28 @@ a:active {
 
 .pagina:hover{
     text-decoration: underline;
+}
+
+table {
+    background-color: rgb(0, 183, 255);
+    border: 1px solid black;
+    font-size: 100%;
+}
+
+td {
+    background-color: rgb(222, 252, 244);
+    border: 1px solid black;
+    padding: 2px 5px;
+    font-size: 100%;
+}
+
+nav {
+    position:absolute; 
+    top: 50px; 
+    right: 20px;
+}
+
+label {
+    font-size: 30px;;
+    color: rgb(80, 80, 80);
 }
